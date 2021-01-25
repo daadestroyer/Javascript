@@ -38,9 +38,34 @@ var n = null
 console.log(n)
 
 
-// Arrays in JS
+// 3. Arrays in JS
 var arr = [1,2,'shubham',4,5]
 arr[2] = 'sakshi shubham' // changing array elements
 console.log(arr.length) // length of array
 arr.push('shubhanshu') // adding some element into array
 
+// 4. Operators in JS
+/*
+1. Assignment Operators (c+=2 , c=2 , c-=2 , c*=2 , c/=2)
+2. Comparison Operators (== , >= , <= , > , <)
+3. Logical Operators (&& , || , ! )
+4.  
+5.
+*/
+
+var a = 100
+var b = 50
+console.log('the value of a+b = ',a+b)
+console.log('the value of a-b = ',a-b)
+console.log('the value of a*b = ',a*b)
+console.log('the value of a/b = ',a/b)
+console.log('the value of a%b = ',a%b)
+
+console.log(true&&false)
+console.log(false&&false)
+console.log(true&&true)
+console.log(true||false)
+console.log(false||false)
+console.log(true||true)
+console.log(!false)
+console.log(!true)
