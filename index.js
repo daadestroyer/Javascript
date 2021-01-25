@@ -69,3 +69,12 @@ console.log(false||false)
 console.log(true||true)
 console.log(!false)
 console.log(!true)
+
+
+// 5. Functions
+
+function avg(a,b){
+    return "Average is : "+(a+b)/2
+}
+console.log(avg(4,6))
+console.log(avg(10,50))
