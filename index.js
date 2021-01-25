@@ -36,3 +36,11 @@ console.log(a+":"+b+":"+c)
 //  Null
 var n = null
 console.log(n)
+
+
+// Arrays in JS
+var arr = [1,2,'shubham',4,5]
+arr[2] = 'sakshi shubham' // changing array elements
+console.log(arr.length) // length of array
+arr.push('shubhanshu') // adding some element into array
+
