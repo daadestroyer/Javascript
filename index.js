@@ -122,3 +122,16 @@ arr.forEach(function(e){
 console.log(e)
 })
 
+// while loop
+// let scope is inside a block only and var is act like a global
+
+let j = 0;
+const cnst = 1; // to make any thing constant which can't be change further
+// cnst=cnst+1; // throws error
+
+
+var ar = ['shubham','sakshi','shubhanshu','kshitij']
+while(j<ar.length){
+    console.log(ar[j])
+    j++;
+}
