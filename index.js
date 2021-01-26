@@ -170,3 +170,22 @@ console.log(str.indexOf('good')) // find index of specified word
 console.log(str.lastIndexOf('good')) // getting last index of specified word
 console.log(str.slice(7,17)) // slice string start from starting to ending-1 index
 console.log(str.replace('shubham','shubham nigam')) // replace old string with new string  
+
+
+console.log('---------------------------------------------------------')
+
+
+// Date in JS
+
+let myDate = new Date()
+console.log(myDate)
+console.log(myDate.getDate())
+console.log(myDate.getDay())
+console.log(myDate.getHours())
+console.log(myDate.getMinutes())
+console.log(myDate.getFullYear())
+console.log(myDate.getMilliseconds())
+console.log(myDate.getTime())
+
+
+
