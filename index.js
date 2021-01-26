@@ -135,3 +135,20 @@ while(j<ar.length){
     console.log(ar[j])
     j++;
 }
+
+let fruits = ['apple','mango','banana','orange','cherry',null,true,false]
+console.log(fruits.length) // getting length of fruits array
+console.log(fruits.pop()) // popping last element of fruits array
+console.log(fruits)
+console.log(fruits.pop())
+console.log(fruits)
+console.log(fruits.pop())
+console.log(fruits)
+fruits.push('watermelon') // pushing element at last
+console.log(fruits)
+fruits.shift() // popping first element from array
+console.log(fruits)
+fruits.unshift('RVCE') // adding element at first if we write this statement inside console.log then it will return new array length
+console.log(fruits)
+fruits.sort()
+console.log(fruits)
