@@ -189,3 +189,30 @@ console.log(myDate.getTime())
 
 
 
+// DOM Manipuation
+let elem = document.getElementById('click');
+console.log(elem) 
+
+let elemClass = document.getElementsByClassName('container')
+console.log(elemClass)
+
+elemClass[0].style.background = "yellow";
+elemClass[1].style.background = "orange";
+elemClass[2].classList.add('text-success')
+// console.log(elemClass[0].innerHTML='My name is shubham nigam')
+// console.log(elem.innerText)
+
+let tagname = document.getElementsByTagName('div')
+console.log(tagname)
+
+element = document.createElement('p')
+element.innerText = "this is created para"
+tagname[0].appendChild(element);
+
+element1 = document.createElement('h1')
+element1.innerText = "this is created h1"
+tagname[1].appendChild(element1)
+
+
+// selecting using Query
+// 2:23:47
