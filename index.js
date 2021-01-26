@@ -110,3 +110,15 @@ else if (marks >= 45) {
 else {
     console.log("FAIL")
 }
+
+// Loops in JS
+var arr = [1,2,3,4,5,6];
+for(var i=0 ; i<arr.length ;i++){
+    console.log(arr[i])
+}
+
+var arr = ['shubham','sakshi','shubhanshu']
+arr.forEach(function(e){
+console.log(e)
+})
+
