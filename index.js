@@ -71,6 +71,7 @@ console.log(!false)
 console.log(!true)
 
 
+console.log('---------------------------------------------------------')
 // 5. Functions
 
 function avg(a, b) {
@@ -79,6 +80,7 @@ function avg(a, b) {
 console.log(avg(4, 6))
 console.log(avg(10, 50))
 
+console.log('---------------------------------------------------------')
 // 6. Condition in JS
 
 var age = 40
@@ -89,6 +91,7 @@ else {
     console.log('not eligible')
 }
 
+console.log('---------------------------------------------------------')
 // if-else ladder
 
 marks = 85
@@ -111,6 +114,7 @@ else {
     console.log("FAIL")
 }
 
+console.log('---------------------------------------------------------')
 // Loops in JS
 var arr = [1,2,3,4,5,6];
 for(var i=0 ; i<arr.length ;i++){
@@ -122,6 +126,7 @@ arr.forEach(function(e){
 console.log(e)
 })
 
+console.log('---------------------------------------------------------')
 // while loop
 // let scope is inside a block only and var is act like a global
 
@@ -136,6 +141,8 @@ while(j<ar.length){
     j++;
 }
 
+console.log('---------------------------------------------------------')
+// arrays method in JS
 let fruits = ['apple','mango','banana','orange','cherry',null,true,false]
 console.log(fruits.length) // getting length of fruits array
 console.log(fruits.pop()) // popping last element of fruits array
@@ -152,3 +159,14 @@ fruits.unshift('RVCE') // adding element at first if we write this statement ins
 console.log(fruits)
 fruits.sort()
 console.log(fruits)
+
+
+console.log('---------------------------------------------------------')
+
+// strings method in JS
+let str = "shubham is a good developer and a good boy also"
+console.log(str.length) // get string length
+console.log(str.indexOf('good')) // find index of specified word
+console.log(str.lastIndexOf('good')) // getting last index of specified word
+console.log(str.slice(7,17)) // slice string start from starting to ending-1 index
+console.log(str.replace('shubham','shubham nigam')) // replace old string with new string  
