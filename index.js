@@ -191,7 +191,8 @@ console.log(myDate.getTime())
 
 // DOM Manipuation
 let elem = document.getElementById('click');
-console.log(elem) 
+elem.innerHTML = 'submit'
+console.log(elem.innerHTML) 
 
 let elemClass = document.getElementsByClassName('container')
 console.log(elemClass)
@@ -215,4 +216,8 @@ tagname[1].appendChild(element1)
 
 
 // selecting using Query
-// 2:23:47
+sel = document.querySelector('.container')
+console.log(sel) // gives the first elements inside container
+
+sel1 = document.querySelectorAll('.container')
+console.log(sel1) // gives all element inside container
