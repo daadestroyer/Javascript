@@ -256,3 +256,21 @@ c1.addEventListener('click',function(){ // click.addEventListener jo hai usme cl
 // c1.addEventListener('mousedown',function(){ // click.addEventListener jo hai usme click jo hai wo div ki id hai matlab function banane ke bajaye aise bhe kar sakte hai
 //     console.log('clicked')
 // }) 
+
+
+
+// Arrow Functions
+// old version without arrow functions
+function sum(a,b){
+    return a+b;
+}
+
+// new version using arrow function
+sum1 = (a,b)=>{
+    return a+b;
+}
+
+console.log(sum(2,2))
+console.log(sum1(3,3))
+
+// SetTimeOut and SetInterval
