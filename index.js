@@ -221,3 +221,38 @@ console.log(sel) // gives the first elements inside container
 
 sel1 = document.querySelectorAll('.container')
 console.log(sel1) // gives all element inside container
+
+
+// Events in JS
+
+function clicked(){
+    //alert('button clicked')
+    let tg = document.getElementsByTagName('body')
+    // tg[0].style.background='grey'
+    // tg[0].innerText = 'hurray'
+}
+
+window.onload = function(){
+    // alert('document loaded')
+}
+
+c1.addEventListener('click',function(){ // click.addEventListener jo hai usme click jo hai wo div ki id hai matlab function banane ke bajaye aise bhe kar sakte hai
+    document.querySelectorAll('.container')[2].innerHTML = '<b>we have clicked</b>'
+    console.log('clicked')
+}) 
+
+// c1.addEventListener('mouseover',function(){ // click.addEventListener jo hai usme click jo hai wo div ki id hai matlab function banane ke bajaye aise bhe kar sakte hai
+//     console.log('clicked')
+// }) 
+
+// c1.addEventListener('mouseout',function(){ // click.addEventListener jo hai usme click jo hai wo div ki id hai matlab function banane ke bajaye aise bhe kar sakte hai
+//     console.log('clicked')
+// }) 
+
+// c1.addEventListener('mouseup',function(){ // click.addEventListener jo hai usme click jo hai wo div ki id hai matlab function banane ke bajaye aise bhe kar sakte hai
+//     console.log('clicked')
+// }) 
+
+// c1.addEventListener('mousedown',function(){ // click.addEventListener jo hai usme click jo hai wo div ki id hai matlab function banane ke bajaye aise bhe kar sakte hai
+//     console.log('clicked')
+// }) 
