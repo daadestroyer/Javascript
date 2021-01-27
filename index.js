@@ -274,3 +274,16 @@ console.log(sum(2,2))
 console.log(sum1(3,3))
 
 // SetTimeOut and SetInterval
+logKaro = ()=>{
+    document.querySelectorAll('.container')[2].innerHTML = '<b>we have clicked hurray !</b>'
+    console.log('clicked')
+    
+}
+// setTimeout is user if you want to perform some after some time for one time only
+clr1 = setTimeout(logKaro,3000); // this function will be called after 2 sec
+
+// setInterval is user if you want to perform something repeatidly after some time
+clr2 = setInterval(logKaro,500)
+
+
+
