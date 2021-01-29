@@ -285,5 +285,11 @@ clr1 = setTimeout(logKaro,3000); // this function will be called after 2 sec
 // setInterval is user if you want to perform something repeatidly after some time
 clr2 = setInterval(logKaro,500)
 
+// JS Local Storage
+localStorage.setItem('name','harry')
+localStorage.getItem('name')
 
-
+// JSON
+obj = {name:"shubham",length:1}
+jso = JSON.stringify(obj);
+console.log(jso)
